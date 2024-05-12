@@ -24,7 +24,9 @@ $ ./run.sh
 
 `docker run --rm $(docker build -q .)` work equally from `run.sh`.
 
-![](/resources/2024-05-12-01.png)
+Result|Code
+:---:|:---:
+![](/resources/2024-05-12-01.png)|![](/resources/2024-05-12-02.png)
 
 # Build Envinronment
 
