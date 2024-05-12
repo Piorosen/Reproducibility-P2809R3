@@ -1,5 +1,7 @@
 # Reproducibility P2809R3
 
+this repository is for study on my own. so, if you need information more detail than, create issue or send me via e-mail.
+
 # Relative Issues.
 
 1. [Official with history in open-std](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2024/p2809r3.html)
