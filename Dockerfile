@@ -6,10 +6,8 @@ RUN apt update && \
     rm -rf /var/lib/apt/lists/*
 
 COPY main.cc main.cc
-RUN clang++-17 -O3 ./main.cc -o main -static
+RUN clang++-17 -O3 ./main.cc -o main -static -std=c++17
 
-
-FROM ubuntu:24.04
+FROM scratch
 COPY --from=builder /work/main ./main
 CMD [ "/main" ]
-
